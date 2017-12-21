@@ -3,7 +3,7 @@
   hosts: all
   vars:
     ubuntu_iso: "{{lookup('file','./compose/config-dir/provisioner/bootenvs/ubuntu-16.04.json')}}"
-    centos_iso: "{{lookup('file','./compose/config-dir/provisioner/bootenvs/centos-7.3.1611.json')}}"
+    centos_iso: "{{lookup('file','./compose/config-dir/provisioner/bootenvs/centos-7.4.1708.json')}}"
 
   tasks:
     - include: tasks/base.yml

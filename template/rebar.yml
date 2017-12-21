@@ -297,4 +297,4 @@ attribs:
 profiles:
   - name: template-profile-1
     values:
-      provisioner-target_os: centos-7.3.1611
+      provisioner-target_os: centos-7.4.1708

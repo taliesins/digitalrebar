@@ -563,18 +563,19 @@ func (b *BootEnv) AfterDelete() {
 
 func (b *BootEnv) RebuildRebarData() {
 	preferredOses := map[string]int{
-		"centos-7.3.1611": 0,
-		"centos-7.2.1511": 1,
-		"centos-7.1.1503": 2,
-		"ubuntu-16.04":    3,
-		"ubuntu-14.04":    4,
-		"ubuntu-15.04":    5,
-		"debian-8":        6,
-		"centos-6.8":      7,
-		"centos-6.6":      8,
-		"debian-7":        9,
-		"redhat-6.5":      10,
-		"ubuntu-12.04":    11,
+		"centos-7.4.1708": 0,
+		"centos-7.3.1611": 1,
+		"centos-7.2.1511": 2,
+		"centos-7.1.1503": 3,
+		"ubuntu-16.04":    4,
+		"ubuntu-14.04":    5,
+		"ubuntu-15.04":    6,
+		"debian-8":        7,
+		"centos-6.8":      8,
+		"centos-6.6":      9,
+		"debian-7":        10,
+		"redhat-6.5":      11,
+		"ubuntu-12.04":    12,
 	}
 
 	attrValOSes := make(map[string]bool)
